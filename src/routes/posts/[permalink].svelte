@@ -7,16 +7,13 @@
 </script>
 
 <script>
-  import {onMount} from 'svelte'
-  import hljs from 'highlight.js'
+  import highlight from '../../highlight'
 
   export let post
-
-  onMount(() => {
-    hljs.initHighlighting()
-  })
 </script>
 
 <h1>{post.title}</h1>
 
-{@html post.html}
+<div use:highlight>
+  {@html post.html}
+</div>

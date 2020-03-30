@@ -2,10 +2,10 @@
   import {posts} from '../posts'
 </script>
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>Josh's Weblog</title>
 </svelte:head>
 
-<h1>Hello Sapper!</h1>
+<h1>Josh's Weblog</h1>
 
 {#each posts as post}
   <article>

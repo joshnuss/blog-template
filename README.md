@@ -1,9 +1,11 @@
-# sapper blog example
+# Sapper blog example
 
-Example blog using Sapper.
+Example markdown-style blog using Sapper.
 
-DEV article: https://dev.to/joshnuss/create-a-blog-with-markdown-sapper-50ad
-YouTube ccreencast: https://www.youtube.com/watch?v=9dSrsDdHyHg
+## Links
+
+- DEV article: https://dev.to/joshnuss/create-a-blog-with-markdown-sapper-50ad
+- YouTube screencast: https://www.youtube.com/watch?v=9dSrsDdHyHg
 
 ## Getting started
 

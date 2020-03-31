@@ -37,10 +37,9 @@ Posts are stored in the `posts` folder and pages are in the `routes` folder
 
 ## Production mode and deployment
 
-To generate a production version of your app, run `yarn export` and then deploy it. You can use any host, for example zeit: 
+To generate a production version of your app, run `yarn export` and then deploy it. You can use any host, for example zeit `npm install -g now`: 
 
 ```bash
-npm install -g now
 yarn export
 now
 ```

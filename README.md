@@ -2,6 +2,9 @@
 
 Example blog using Sapper.
 
+DEV article: https://dev.to/joshnuss/create-a-blog-with-markdown-sapper-50ad
+YouTube ccreencast: https://www.youtube.com/watch?v=9dSrsDdHyHg
+
 ## Getting started
 
 Clone the repo

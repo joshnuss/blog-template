@@ -1,6 +1,7 @@
 <script>
   import {posts} from '../posts'
 </script>
+
 <svelte:head>
   <title>Josh's Weblog</title>
 </svelte:head>

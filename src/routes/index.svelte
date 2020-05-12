@@ -3,10 +3,10 @@
 </script>
 
 <svelte:head>
-  <title>Josh's Weblog</title>
+  <title>Sample Weblog</title>
 </svelte:head>
 
-<h1>Josh's Weblog</h1>
+<h1>Sample Weblog</h1>
 
 {#each posts as post}
   <article>

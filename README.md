@@ -32,7 +32,7 @@ Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
 
 ## Structure
 
-Posts are stored in the `posts` folder and pages are in the `routes` folder
+Posts are stored in the `posts` folder and pages are in the `src/routes` folder
 
 
 ## Production mode and deployment

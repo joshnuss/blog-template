@@ -11,7 +11,7 @@ export function findPost(permalink) {
 }
 
 function transform({filename, metadata, html}) {
-  const permalink = filename.replace(/.md$/, '')
+  const permalink = metadata.permalink || filename.replace(/.md$/, '')
   const date = new Date(metadata.date)
 
   return {...metadata, filename, permalink, html, date}

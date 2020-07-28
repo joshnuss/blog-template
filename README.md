@@ -12,7 +12,7 @@ Example markdown-style blog using Sapper.
 Clone the repo
 
 ```
-hub clone joshnuss/sample-blog my-app
+npx degit joshnuss/sample-blog my-blog
 ```
 
 ### Running the project
@@ -20,7 +20,7 @@ hub clone joshnuss/sample-blog my-app
 Install dependencies and run the project in development mode with:
 
 ```bash
-cd my-app
+cd my-blog
 yarn
 yarn dev
 ```

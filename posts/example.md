@@ -10,7 +10,7 @@ permalink: 'test'
 - a `list`
 
 
-```javascript
+```js
 // this is a comment
 class Foo {
   test() {
@@ -38,4 +38,20 @@ end
 
 ```
 1+1
+```
+
+```svelte
+<script>
+  export let propA
+</script>
+
+<h1>Hello {propA}</h1>
+```
+
+```csharp
+public class Foo {
+  public String Name {
+    get; set;
+  }
+}
 ```

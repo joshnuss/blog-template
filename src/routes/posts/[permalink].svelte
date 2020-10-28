@@ -7,6 +7,8 @@
 </script>
 
 <script>
+  import highlight from '../../highlight'
+
   export let post
 </script>
 
@@ -16,4 +18,6 @@
 
 <h1>{post.title}</h1>
 
-{@html post.html}
+<div use:highlight>
+  {@html post.html}
+</div>

@@ -8,7 +8,7 @@
 
 <script>
   import highlight from '@/highlight'
-  import { formatISO } from 'date-fns'
+  import { format } from 'date-fns'
 
   export let post
 </script>
@@ -19,7 +19,7 @@
 
 <h1>{post.title}</h1>
 
-<span datetime={formatISO(post.date, {representation: 'date'})}>
+<span datetime={format(post.date, "yyyy-LL-dd")}>
   {post.date.toLocaleDateString('en', {dateStyle: 'long'})}
 </span>
 

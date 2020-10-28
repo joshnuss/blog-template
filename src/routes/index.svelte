@@ -1,5 +1,5 @@
 <script>
-  import {posts} from '../posts'
+  import {posts} from '@/posts'
 </script>
 
 <svelte:head>

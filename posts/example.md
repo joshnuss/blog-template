@@ -35,3 +35,7 @@ class Foo
   end
 end
 ```
+
+```
+1+1
+```

@@ -7,7 +7,7 @@
 </script>
 
 <script>
-  import highlight from '../../highlight'
+  import highlight from '@/highlight'
 
   export let post
 </script>

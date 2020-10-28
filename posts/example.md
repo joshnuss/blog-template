@@ -28,6 +28,7 @@ Another test
 ```
 
 ```ruby
+# comment here
 class Foo
   def hello
     puts 123

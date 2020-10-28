@@ -1,9 +1,16 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   margin: 0;
   font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
-  color: #333;
+  color: #666;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,7 +20,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3rem;
+  font-weight: bold;
+  color: indigo;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+}
+
+h2 {
+  color: #444;
+  margin-top: 2em;
 }
 
 a {
@@ -22,7 +38,6 @@ a {
 
 code {
   font-family: menlo, inconsolata, monospace;
-  font-size: calc(1em - 2px);
   color: #555;
   background-color: #f0f0f0;
   padding: 0.2em 0.4em;

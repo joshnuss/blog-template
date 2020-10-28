@@ -29,6 +29,10 @@ code {
   border-radius: 2px;
 }
 
+code[class*="language-"] {
+  padding: 0;
+}
+
 @media (min-width: 400px) {
   body {
     font-size: 16px;

@@ -19,7 +19,10 @@ const aliases = {
   '@': path.resolve(__dirname, 'src')
 }
 
-const onwarn = (warning, onwarn) => (warning.code === 'CIRCULAR_DEPENDENCY' && /[/\\]@sapper[/\\]/.test(warning.message)) || onwarn(warning)
+const onwarn = (warning, onwarn) =>
+  (warning.code === 'MISSING_EXPORT' && /'preload'/.test(warning.message)) ||
+	(warning.code === 'CIRCULAR_DEPENDENCY' && /[/\\]@sapper[/\\]/.test(warning.message)) ||
+	onwarn(warning)
 
 export default {
   client: {
@@ -68,6 +71,7 @@ export default {
     ],
 
     onwarn,
+    preserveEntrySignatures: false
   },
 
   server: {
@@ -82,6 +86,7 @@ export default {
         'process.env.NODE_ENV': JSON.stringify(mode)
       }),
       svelte({
+        hydratable: true,
         generate: 'ssr',
         dev
       }),

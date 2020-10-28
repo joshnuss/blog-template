@@ -25,7 +25,7 @@
     "@babel/runtime": "^7.0.0",
     "@jackfranklin/rollup-plugin-markdown": "^0.2.0",
     "@rollup/plugin-alias": "^3.0.1",
-    "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-commonjs": "^12.0.0",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "@rollup/plugin-replace": "^2.2.0",
     "eslint": "^6.8.0",
@@ -38,7 +38,7 @@
     "rollup-plugin-glob": "^1.0.2",
     "rollup-plugin-svelte": "^5.0.1",
     "rollup-plugin-terser": "^5.3.0",
-    "sapper": "^0.27.0",
+    "sapper": "^0.28.0",
     "svelte": "^3.0.0",
     "svelte-preprocess": "^3.5.0"
   }

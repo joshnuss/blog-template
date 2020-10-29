@@ -4,8 +4,8 @@ Example markdown-style blog using Sapper.
 
 ## Links
 
-- DEV article: https://dev.to/joshnuss/create-a-blog-with-markdown-sapper-50ad
-- YouTube screencast: https://www.youtube.com/watch?v=9dSrsDdHyHg
+- DEV article: [Part 1 - Setup](https://dev.to/joshnuss/create-a-blog-with-markdown-sapper-50ad) [Part 2 - Tags](https://dev.to/joshnuss/create-a-blog-with-sapper-markdown-part-2-31m4)
+- YouTube screencast: [Part 1 - Setup](https://youtu.be/9dSrsDdHyHg) [Part 2 - Tags](https://youtu.be/PGLsFfBf1UA)
 
 ## Getting started
 
@@ -37,11 +37,11 @@ Posts are stored in the `posts` folder and pages are in the `src/routes` folder
 
 ## Production mode and deployment
 
-To generate a production version of your app, run `yarn export` and then deploy it. You can use any host, for example zeit `npm install -g now`: 
+To generate a production version of your app, run `yarn export` and then deploy it. You can use any host, for example zeit `npm install -g vercel`: 
 
 ```bash
 yarn export
-now
+vercel
 ```
 
 ## License

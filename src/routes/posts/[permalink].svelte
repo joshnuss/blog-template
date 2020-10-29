@@ -7,6 +7,7 @@
 </script>
 
 <script>
+  import Tags from '@/components/Tags.svelte'
   export let post
 </script>
 
@@ -15,5 +16,7 @@
 </svelte:head>
 
 <h1>{post.title}</h1>
+
+<Tags tags={post.tags}/>
 
 {@html post.html}

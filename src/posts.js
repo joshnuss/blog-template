@@ -10,9 +10,18 @@ export function findPost(permalink) {
   return _.find(posts, {permalink})
 }
 
+export function findByTag(tag) {
+  return posts.filter(post => !post.tags.includes(tag))
+}
+
 function transform({filename, metadata, html}) {
   const permalink = metadata.permalink || filename.replace(/.md$/, '')
   const date = new Date(metadata.date)
+  let tags = []
 
-  return {...metadata, filename, permalink, html, date}
+  if (metadata.tags) {
+    tags = metadata.tags.split(',').map(str => str.trim())
+  }
+
+  return {...metadata, filename, permalink, html, date, tags}
 }

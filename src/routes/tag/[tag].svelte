@@ -15,6 +15,10 @@
   export let tag, posts
 </script>
 
+<svelte:head>
+  <title>#{tag}</title>
+</svelte:head>
+
 <h1>#{tag}</h1>
 
 <PostList {posts}/>

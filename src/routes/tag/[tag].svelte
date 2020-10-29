@@ -3,8 +3,9 @@
 
   export function preload(page) {
     const { tag } = page.params
+    const posts = findByTag(tag)
 
-    return { posts: findByTag(tag), tag }
+    return { tag, posts }
   }
 </script>
 

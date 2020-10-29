@@ -4,8 +4,12 @@ Example markdown-style blog using Sapper.
 
 ## Links
 
-- DEV article: [Part 1 - Setup](https://dev.to/joshnuss/create-a-blog-with-markdown-sapper-50ad) [Part 2 - Tags](https://dev.to/joshnuss/create-a-blog-with-sapper-markdown-part-2-31m4)
-- YouTube screencast: [Part 1 - Setup](https://youtu.be/9dSrsDdHyHg) [Part 2 - Tags](https://youtu.be/PGLsFfBf1UA)
+- DEV article
+  - [Part 1 - Setup](https://dev.to/joshnuss/create-a-blog-with-markdown-sapper-50ad)
+  - [Part 2 - Tags](https://dev.to/joshnuss/create-a-blog-with-sapper-markdown-part-2-31m4)
+- YouTube screencast:
+  - [Part 1 - Setup](https://youtu.be/9dSrsDdHyHg)
+  - [Part 2 - Tags](https://youtu.be/PGLsFfBf1UA)
 
 ## Getting started
 

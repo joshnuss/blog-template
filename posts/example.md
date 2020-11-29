@@ -8,4 +8,20 @@ tags: hello, world
 
 - this
 - is
-- a list
+- a `list`
+
+### CSS
+
+```css
+h1 {
+  background-color: indigo;
+}
+```
+
+### JavaScript
+
+```javascript
+function foo() {
+  return 100;
+}
+```

@@ -16,7 +16,7 @@ Example markdown-style blog using Sapper.
 Clone the repo
 
 ```
-npx degit joshnuss/sample-blog my-blog
+npx degit joshnuss/blog-template my-blog
 ```
 
 ### Running the project
